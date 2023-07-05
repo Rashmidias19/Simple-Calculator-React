@@ -1,15 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import { jsx as _jsx } from "react/jsx-runtime";
-function Header(){
-  // return <h1>Hello World</h1>
-  return /*#__PURE__*/_jsx("h1", {
-    children: "Hello"
-  });
+import Header from './Header';
+import Intro1 from './components/Intro1';
+import Intro2 from './components/Intro2';
+import Intro3 from './components/Intro3';
+
+function Logo(props){
+  const image=<img src={logo} />;
+  return image;
 }
 
 function App() {
-  return <Header />;
+  return(
+    <div>
+      <Header name="Rashmi" color="purple" />
+      <Intro1/>
+      <Logo />
+      <Intro2/>
+      <Intro3/>
+    </div>
+  );
 }
 
 
