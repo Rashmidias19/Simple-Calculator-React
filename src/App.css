@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.App{
+ text-align: left;
 }
 
 .App-logo {
@@ -11,6 +11,21 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.nav{
+  position: absolute;
+  align-items: start;
+  top: 5px;
+  padding: 5px;
+  background-color: aqua;
+}
+.nav-item{
+  text-decoration: none;
+  color: rgb(4, 4, 19);
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px;
+
 }
 
 .App-header {
