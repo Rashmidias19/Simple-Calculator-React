@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+
+import Aboutme from './Aboutme';
 import './App.css';
-import Btn from './Btn';
-import Child from './Child';
+import Homepage from './Homepage';
+import { Routes ,Route, Link } from 'react-router-dom';
+import hub from './assests/GREEN HUB2.png';
+
+
 
 function App() {
-  const date=new Date();
   return(
-    <Child message={date.toLocaleTimeString()} />
+    <div className="App">
+        <img height={200} src={hub} alt="A logo icon" />
+    </div>
   );
 }
 
