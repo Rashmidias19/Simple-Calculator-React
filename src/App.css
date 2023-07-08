@@ -1,5 +1,5 @@
 .App{
- text-align: left;
+
 }
 
 .App-logo {
@@ -12,26 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.nav{
-  position: absolute;
-  align-items: start;
-  top: 5px;
-  padding: 5px;
-  background-color: aqua;
-}
-.nav-item{
-  text-decoration: none;
-  color: rgb(4, 4, 19);
-  font-weight: bolder;
-  font-size: 20px;
-  padding: 10px;
 
-}
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
